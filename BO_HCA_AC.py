@@ -265,7 +265,7 @@ def Experiments(repet_time):
         dimension_x = 6
         f = Hartmann6(dimension_x, dimension_x, dy)
     elif func == "Ackley":
-        dimension_x = 16
+        dimension_x = 8
         f = Ackley(dimension_x, dimension_x, dy)
     elif func == "Griewank":
         dimension_x = 50
